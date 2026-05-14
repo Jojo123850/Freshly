@@ -306,9 +306,13 @@ footer{
 @media screen and (max-width:767px) {
     body{
     header{
+        img{
+          margin-left: -22px;
+        }
     #burgerMenu{
         display: block;
         place-content: center;
+        font-size: 30px;
 
     }
     nav ul{
@@ -323,6 +327,10 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
         padding: 20px;
+        p{
+            padding-bottom: 20px;
+
+        }
         
     }
     .div2{
@@ -335,9 +343,17 @@ footer{
     }
     #section2{
     padding: 0;
-    .div300, .divP{
+    .div300{
         padding: 20px;
         text-align: justify;
+        padding-top: 40px;
+
+}
+.divP{
+padding: 20px;
+text-align: justify;
+padding-top: 5px;
+
 }
 .div3{
     display: grid;
@@ -359,6 +375,9 @@ footer{
         .div40{
             display: grid;
             grid-template-columns: 1fr;
+            div{
+                padding: 20px;
+            }
             img{
                 padding: 0;
                 border-radius: 0;
@@ -368,6 +387,15 @@ footer{
                 
             }
         }
+    #section4{
+        .sec4{
+            padding-top: 40px;
+        h2,p{
+            padding: 20px;
+        }
+        }
+
+    }
 
     }
 footer{
@@ -375,6 +403,7 @@ footer{
     place-self: center;
     a{
         text-align: center;
+        padding-top: 10px;
     }
 
     }
